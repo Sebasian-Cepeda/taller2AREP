@@ -1,0 +1,33 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/movie.css">
+    <script src="js/movie.js"></script>
+    <title>Movies</title>
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="consulta">
+            <form action="/film">
+                <label>Escriba el nombre de la pelicula a consultar</label>
+                <br>
+                <br>
+                <input type="text" id="movie" pkaceholder="Ingrese el nombre de la pelicula" name="name">
+                <br>
+                <br>    
+                <input type="button" id="getMovie" value="Summit" onclick="movie.consultMovie()">
+            </form>
+
+        </div>
+
+        <div id="pelicula">
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

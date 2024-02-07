@@ -1,8 +1,8 @@
-package edu.escuelaing.arep.taller1;
+package edu.escuelaing.arep.taller2;
 
 import java.io.IOException;
 
-import edu.escuelaing.arep.taller1.apiMovie.WebServer;
+import edu.escuelaing.arep.taller2.apiMovie.WebServer;
 
 /**
  * Main class to start the application

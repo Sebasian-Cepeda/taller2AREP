@@ -1,4 +1,4 @@
-package edu.escuelaing.arep.taller1.apiMovie;
+package edu.escuelaing.arep.taller2.apiMovie;
 
 import java.net.*;
 

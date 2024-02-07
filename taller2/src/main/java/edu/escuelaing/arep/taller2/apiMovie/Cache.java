@@ -1,4 +1,4 @@
-package edu.escuelaing.arep.taller1.apiMovie;
+package edu.escuelaing.arep.taller2.apiMovie;
 
 import java.util.concurrent.ConcurrentHashMap;
 import com.google.gson.*;
@@ -47,7 +47,7 @@ public class Cache {
     /**
      * method that returns if a movie is inside cache
      * 
-     * @return 
+     * @return
      */
     public boolean movieInCache(String name) {
         return movieCache.containsKey(name);
@@ -56,8 +56,8 @@ public class Cache {
     /**
      * 
      * 
-     * @param name      
-     * @param movieInfo 
+     * @param name
+     * @param movieInfo
      */
     public void addMovieToCache(String name, JsonObject movieInfo) {
         movieCache.putIfAbsent(name, movieInfo);
